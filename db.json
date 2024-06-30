@@ -1,0 +1,74 @@
+{
+    "tipos": [
+      { "id": 2, "descripcion": "Accesorios" }
+    ],
+    "ubicaciones": [
+      { "id": 1, "nombre": "Almacén Central" },
+      { "id": 2, "nombre": "Sucursal Norte" },
+      { "id": 3, "nombre": "Sucursal Sur" }
+    ],
+    "comentarios": [
+      { "id": 1, "comentario": "Excelente para juegos de alta demanda" },
+      { "id": 2, "comentario": "Buena relación calidad-precio" },
+      { "id": 3, "comentario": "Batería de larga duración" },
+      { "id": 4, "comentario": "Cámara de alta resolución" },
+      { "id": 5, "comentario": "Excelente respuesta al tacto" },
+      { "id": 6, "comentario": "Iluminación personalizable" },
+      { "id": 7, "comentario": "Ideal para diseño gráfico" },
+      { "id": 8, "comentario": "Gran ángulo de visión" },
+      { "id": 9, "comentario": "Ligero y ergonómico" },
+      { "id": 10, "comentario": "Duración de batería adecuada" }
+    ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Teclado Mecánico RGB",
+        "tipo": 2,
+        "comentarios": [6, 7],
+        "ubicaciones": [
+          { "ubicacionId": 1, "cantidad": 15 },
+          { "ubicacionId": 2, "cantidad": 10 }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Monitor 4K 28 Pulgadas",
+        "tipo": 2,
+        "comentarios": [8, 4],
+        "ubicaciones": [
+          { "ubicacionId": 3, "cantidad": 5 },
+          { "ubicacionId": 1, "cantidad": 7 }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Portátil Gaming 16GB RAM",
+        "tipo": 2,
+        "comentarios": [1, 3],
+        "ubicaciones": [
+          { "ubicacionId": 2, "cantidad": 8 },
+          { "ubicacionId": 3, "cantidad": 4 }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Tableta Gráfica",
+        "tipo": 2,
+        "comentarios": [7, 5],
+        "ubicaciones": [
+          { "ubicacionId": 1, "cantidad": 12 },
+          { "ubicacionId": 2, "cantidad": 6 }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Mouse Ergonómico Inalámbrico",
+        "tipo": 2,
+        "comentarios": [9, 2],
+        "ubicaciones": [
+          { "ubicacionId": 3, "cantidad": 20 },
+          { "ubicacionId": 1, "cantidad": 30 }
+        ]
+      }
+    ]
+  }
